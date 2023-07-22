@@ -10,7 +10,7 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/Sarvabhowma1995/argocd-demo.git # Can point to either a Helm chart repo or a git repo.
+    repoURL: https://github.com/cookiesikeri/gitops.git # Can point to either a Helm chart repo or a git repo.
     targetRevision: HEAD # For Helm, this refers to the chart version.
     path: develop 
   # Destination cluster and namespace to deploy the application
